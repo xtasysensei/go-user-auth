@@ -7,5 +7,5 @@ import (
 )
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	utils.WriteJSON(w, http.StatusOK, map[string]string{"message": "welcome to the polls app"})
+	utils.WriteJSON(w, http.StatusOK, map[string]string{"message": "welcome to the go auth app"})
 }
