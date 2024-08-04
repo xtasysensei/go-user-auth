@@ -75,7 +75,7 @@ To run the application along with a PostgreSQL database using Docker Compose:
 - [Chi](https://github.com/go-chi/chi) for routing
 - [JWT](https://github.com/dgrijalva/jwt-go) for token generation
 - [PostgreSQL](https://www.postgresql.org/) for database
-- [Air]( go install github.com/air-verse/air@latest) _optional_
+- [Air](go install github.com/air-verse/air@latest) _optional_
 ## Environment Variables
 
 - `SERVER_PORT`: Port on which the server runs (default: 8000)
